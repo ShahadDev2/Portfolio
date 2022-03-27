@@ -7,7 +7,7 @@ $(document).ready(function(){
         }
     });
     //toggle menubar/navbar script 
-    $('.menu-btn').click(function(){
+    $('.menu-btn, nav ul li a').click(function(){
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
     });
