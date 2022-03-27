@@ -473,11 +473,7 @@ background: #F2C3A7;
         width: 50%;
     
     }
-.news .news-content .left .twitter-timeline{
-       
-        border-radius: 6px;
-    
-    }
+
 .news .news-content .right {
         width: 50%;
     
@@ -722,7 +718,15 @@ footer span a:hover{
         margin-bottom: 25px;
 
     }
+    .news .news-content .left{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+    .news .news-content .right{
+        flex: 100%;
 
+    }
 }
 @media (max-width: 690px){
     .max-width{
