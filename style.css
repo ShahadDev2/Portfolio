@@ -474,9 +474,7 @@ background: #F2C3A7;
     
     }
 .news .news-content .left .twitter-timeline{
-        height: 400px;
-        width: 400px;
-        object-fit: cover;
+       
         border-radius: 6px;
     
     }
